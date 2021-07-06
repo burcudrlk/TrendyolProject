@@ -32,7 +32,7 @@ public class Tests extends BaseTest {
     }
 
     @Test
-    @Description("Search a movie with id on ById or Title area")
+    @Description("Search a movie with imdb id on ById or Title area")
     public void searchMovieWithId(){
         byIdOrTitleRequest(imdbId)
                 .when()
