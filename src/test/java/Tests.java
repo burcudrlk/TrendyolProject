@@ -1,5 +1,5 @@
-import com.sun.org.glassfish.gmbal.Description;
 import io.restassured.specification.RequestSpecification;
+import org.glassfish.pfl.tf.spi.annotation.Description;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import java.util.List;
