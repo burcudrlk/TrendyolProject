@@ -1,8 +1,6 @@
 import com.sun.org.glassfish.gmbal.Description;
-import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
-import org.junit.Assert;
 import org.junit.Test;
 import java.util.List;
 import static io.restassured.RestAssured.given;
